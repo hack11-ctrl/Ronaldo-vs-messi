@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة تنافسية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="player" id="ronaldo">
+            <img src="ronaldo.png" alt="رونالدو">
+            <p>نقاط: <span id="ronaldo-score">0</span></p>
+            <button onclick="increaseScore('ronaldo')">أرسل وردة</button>
+        </div>
+        <div class="player" id="messi">
+            <img src="messi.png" alt="ميسي">
+            <p>نقاط: <span id="messi-score">0</span></p>
+            <button onclick="increaseScore('messi')">أرسل تيكتوك</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
